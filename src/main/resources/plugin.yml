@@ -1,0 +1,29 @@
+name: VaultsUtilities
+version: '${project.version}'
+main: me.vaultsdevelopment.vaultsutilities.VaultsUtilities
+api-version: 1.18
+commands:
+  VaultsGUI:
+    description: A gui for your Vault!.
+    aliases:
+      - vg
+      - vaultsgui
+      - vault
+      - ec
+      - enderchest
+  enderchestt:
+    description: EC/Vault cmd
+  heal:
+    description: Heals you.
+  godmode:
+    description: Makes you invinicible
+  Fly:
+    description: makes u fly like a bird
+    aliases:
+      - birdmode
+      - flight
+      - beemode
+      - enderdragonmode
+permissions:
+  run.vaultgui:
+    description: gives u perms to do /vaultgui, /vg, /vault and /vaultsgui
